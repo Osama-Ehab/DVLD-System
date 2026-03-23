@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>DVLD_BusinessLayer</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CryptographyExtensions">
+      <HintPath>..\..\CryptographyExtensions\bin\Debug\net8.0\CryptographyExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="DVLD-DataAccessLayer">
+      <HintPath>..\..\DVLD-DataAccessLayer\bin\Debug\net8.0\DVLD-DataAccessLayer.dll</HintPath>
+    </Reference>
+    <Reference Include="Logging">
+      <HintPath>..\..\Logging\bin\Debug\net8.0\Logging.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
