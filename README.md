@@ -30,7 +30,7 @@ The system follows a decoupled **3-Tier Architecture** to maintain a clean separ
 ## 🌟 Key Engineering Highlights
 * **Data Integrity:** Designed with **10+ Normalized tables**, ensuring strict referential integrity and zero data redundancy.
 * **Scalability:** Specifically architected to handle complex, real-world workflows such as Local/International licenses, renewals, and replacements (Lost/Damaged).
-* **Manual Engineering Excellence:** Developed entirely through manual scaffolding to master architectural patterns. This experience served as the direct inspiration for my **Custom Code Generator** project.
+* **Manual Engineering Excellence:** Developed entirely through manual scaffolding to master architectural patterns. This experience served as the direct inspiration for my [Custom Code Generator](https://github.com/Osama-Ehab/DotNet-Code-Generator) project.
 
 ---
 
