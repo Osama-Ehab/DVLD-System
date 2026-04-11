@@ -9,9 +9,9 @@ An enterprise-grade management system designed to automate and streamline licens
 
 | System Authentication | Comprehensive License History |
 | :---: | :---: |
-| ![Login](Screenshots/Login.jpg?raw=true) | ![License History](Screenshots/License_History.png?raw=true) |
+| ![Login](Screenshots/Main/Login.jpg?raw=true) | ![License History](Screenshots/Main/License_History.png?raw=true) |
 | **Complex Application Workflows** | **Fines & Detained Licenses Management** |
-| ![Applications Workflow](Screenshots/Applications_Workflow.png?raw=true) | ![Detained Licenses](Screenshots/Detained_Licenses.png?raw=true) |
+| ![Applications Workflow](Screenshots/Main/Applications_Workflow.png?raw=true) | ![Detained Licenses](Screenshots/Main/Detained_Licenses.png?raw=true) |
 
 > **Note:** The primary focus of this project was engineering a robust Backend using strict 3-Tier Architecture and complex SQL operations. The Windows Forms UI is built purely for functional testing and demonstrating the core business logic.
 
