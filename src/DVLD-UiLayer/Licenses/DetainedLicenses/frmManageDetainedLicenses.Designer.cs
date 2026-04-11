@@ -28,284 +28,261 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.dgvManageDetainedLicenses = new System.Windows.Forms.DataGridView();
-            this.cmsManageDetainedLicenses = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.showPersonDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.showLicenseDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.showPersonLicenseHistoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-            this.releaseDetainToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lblRecordsCount = new System.Windows.Forms.Label();
-            this.mtxtFilterSearch = new System.Windows.Forms.MaskedTextBox();
-            this.cbFilterBy = new System.Windows.Forms.ComboBox();
-            this.btnDetainLicense = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnAddDetainedLicense = new System.Windows.Forms.Button();
-            this.btnCloseForm = new System.Windows.Forms.Button();
-            this.btnReleaseDetainedLicense = new System.Windows.Forms.Button();
-            this.cbIsReleasedFilter = new System.Windows.Forms.ComboBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvManageDetainedLicenses)).BeginInit();
-            this.cmsManageDetainedLicenses.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            dgvManageDetainedLicenses = new DataGridView();
+            cmsManageDetainedLicenses = new ContextMenuStrip(components);
+            showPersonDetailsToolStripMenuItem = new ToolStripMenuItem();
+            showLicenseDetailsToolStripMenuItem = new ToolStripMenuItem();
+            showPersonLicenseHistoryToolStripMenuItem = new ToolStripMenuItem();
+            toolStripMenuItem1 = new ToolStripSeparator();
+            releaseDetainToolStripMenuItem = new ToolStripMenuItem();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            lblRecordsCount = new Label();
+            mtxtFilterSearch = new MaskedTextBox();
+            cbFilterBy = new ComboBox();
+            btnDetainLicense = new Button();
+            button1 = new Button();
+            pictureBox1 = new PictureBox();
+            btnCloseForm = new Button();
+            btnReleaseDetainedLicense = new Button();
+            cbIsReleasedFilter = new ComboBox();
+            ((System.ComponentModel.ISupportInitialize)dgvManageDetainedLicenses).BeginInit();
+            cmsManageDetainedLicenses.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
             // 
             // dgvManageDetainedLicenses
             // 
-            this.dgvManageDetainedLicenses.AllowUserToAddRows = false;
-            this.dgvManageDetainedLicenses.AllowUserToDeleteRows = false;
-            this.dgvManageDetainedLicenses.AllowUserToOrderColumns = true;
-            this.dgvManageDetainedLicenses.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvManageDetainedLicenses.ContextMenuStrip = this.cmsManageDetainedLicenses;
-            this.dgvManageDetainedLicenses.Location = new System.Drawing.Point(14, 376);
-            this.dgvManageDetainedLicenses.Margin = new System.Windows.Forms.Padding(4);
-            this.dgvManageDetainedLicenses.Name = "dgvManageDetainedLicenses";
-            this.dgvManageDetainedLicenses.ReadOnly = true;
-            this.dgvManageDetainedLicenses.RowHeadersWidth = 51;
-            this.dgvManageDetainedLicenses.Size = new System.Drawing.Size(1252, 366);
-            this.dgvManageDetainedLicenses.TabIndex = 0;
+            dgvManageDetainedLicenses.AllowUserToAddRows = false;
+            dgvManageDetainedLicenses.AllowUserToDeleteRows = false;
+            dgvManageDetainedLicenses.AllowUserToOrderColumns = true;
+            dgvManageDetainedLicenses.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvManageDetainedLicenses.ContextMenuStrip = cmsManageDetainedLicenses;
+            dgvManageDetainedLicenses.Location = new Point(14, 352);
+            dgvManageDetainedLicenses.Margin = new Padding(4);
+            dgvManageDetainedLicenses.Name = "dgvManageDetainedLicenses";
+            dgvManageDetainedLicenses.ReadOnly = true;
+            dgvManageDetainedLicenses.RowHeadersWidth = 51;
+            dgvManageDetainedLicenses.Size = new Size(1252, 343);
+            dgvManageDetainedLicenses.TabIndex = 0;
             // 
             // cmsManageDetainedLicenses
             // 
-            this.cmsManageDetainedLicenses.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.cmsManageDetainedLicenses.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.showPersonDetailsToolStripMenuItem,
-            this.showLicenseDetailsToolStripMenuItem,
-            this.showPersonLicenseHistoryToolStripMenuItem,
-            this.toolStripMenuItem1,
-            this.releaseDetainToolStripMenuItem});
-            this.cmsManageDetainedLicenses.Name = "cmsManageDetainedLicenses";
-            this.cmsManageDetainedLicenses.Size = new System.Drawing.Size(269, 114);
-            this.cmsManageDetainedLicenses.Opening += new System.ComponentModel.CancelEventHandler(this.cmsManageDetainedLicenses_Opening);
+            cmsManageDetainedLicenses.ImageScalingSize = new Size(20, 20);
+            cmsManageDetainedLicenses.Items.AddRange(new ToolStripItem[] { showPersonDetailsToolStripMenuItem, showLicenseDetailsToolStripMenuItem, showPersonLicenseHistoryToolStripMenuItem, toolStripMenuItem1, releaseDetainToolStripMenuItem });
+            cmsManageDetainedLicenses.Name = "cmsManageDetainedLicenses";
+            cmsManageDetainedLicenses.Size = new Size(230, 114);
+            cmsManageDetainedLicenses.Opening += cmsManageDetainedLicenses_Opening;
             // 
             // showPersonDetailsToolStripMenuItem
             // 
-            this.showPersonDetailsToolStripMenuItem.Image = global::DVLD_UiLayer.ImageResources.PersonDetails_32;
-            this.showPersonDetailsToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.showPersonDetailsToolStripMenuItem.Name = "showPersonDetailsToolStripMenuItem";
-            this.showPersonDetailsToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
-            this.showPersonDetailsToolStripMenuItem.Text = "Show Person Details";
-            this.showPersonDetailsToolStripMenuItem.Click += new System.EventHandler(this.showPersonDetailsToolStripMenuItem_Click);
+            showPersonDetailsToolStripMenuItem.Image = ImageResources.PersonDetails_32;
+            showPersonDetailsToolStripMenuItem.ImageAlign = ContentAlignment.MiddleLeft;
+            showPersonDetailsToolStripMenuItem.Name = "showPersonDetailsToolStripMenuItem";
+            showPersonDetailsToolStripMenuItem.Size = new Size(229, 26);
+            showPersonDetailsToolStripMenuItem.Text = "Show Person Details";
+            showPersonDetailsToolStripMenuItem.Click += showPersonDetailsToolStripMenuItem_Click;
             // 
             // showLicenseDetailsToolStripMenuItem
             // 
-            this.showLicenseDetailsToolStripMenuItem.Image = global::DVLD_UiLayer.ImageResources.License_View_32;
-            this.showLicenseDetailsToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.showLicenseDetailsToolStripMenuItem.Name = "showLicenseDetailsToolStripMenuItem";
-            this.showLicenseDetailsToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
-            this.showLicenseDetailsToolStripMenuItem.Text = "Show License Details";
-            this.showLicenseDetailsToolStripMenuItem.Click += new System.EventHandler(this.showLicenseDetailsToolStripMenuItem_Click);
+            showLicenseDetailsToolStripMenuItem.Image = ImageResources.License_View_32;
+            showLicenseDetailsToolStripMenuItem.ImageAlign = ContentAlignment.MiddleLeft;
+            showLicenseDetailsToolStripMenuItem.Name = "showLicenseDetailsToolStripMenuItem";
+            showLicenseDetailsToolStripMenuItem.Size = new Size(229, 26);
+            showLicenseDetailsToolStripMenuItem.Text = "Show License Details";
+            showLicenseDetailsToolStripMenuItem.Click += showLicenseDetailsToolStripMenuItem_Click;
             // 
             // showPersonLicenseHistoryToolStripMenuItem
             // 
-            this.showPersonLicenseHistoryToolStripMenuItem.Image = global::DVLD_UiLayer.ImageResources.PersonLicenseHistory_32;
-            this.showPersonLicenseHistoryToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.showPersonLicenseHistoryToolStripMenuItem.Name = "showPersonLicenseHistoryToolStripMenuItem";
-            this.showPersonLicenseHistoryToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
-            this.showPersonLicenseHistoryToolStripMenuItem.Text = "Show Person License History";
-            this.showPersonLicenseHistoryToolStripMenuItem.Click += new System.EventHandler(this.showPersonLicenseHistoryToolStripMenuItem_Click);
+            showPersonLicenseHistoryToolStripMenuItem.Image = ImageResources.PersonLicenseHistory_32;
+            showPersonLicenseHistoryToolStripMenuItem.ImageAlign = ContentAlignment.MiddleLeft;
+            showPersonLicenseHistoryToolStripMenuItem.Name = "showPersonLicenseHistoryToolStripMenuItem";
+            showPersonLicenseHistoryToolStripMenuItem.Size = new Size(229, 26);
+            showPersonLicenseHistoryToolStripMenuItem.Text = "Show Person License History";
+            showPersonLicenseHistoryToolStripMenuItem.Click += showPersonLicenseHistoryToolStripMenuItem_Click;
             // 
             // toolStripMenuItem1
             // 
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(265, 6);
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new Size(226, 6);
             // 
             // releaseDetainToolStripMenuItem
             // 
-            this.releaseDetainToolStripMenuItem.Image = global::DVLD_UiLayer.ImageResources.Release_Detained_License_32;
-            this.releaseDetainToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.releaseDetainToolStripMenuItem.Name = "releaseDetainToolStripMenuItem";
-            this.releaseDetainToolStripMenuItem.Size = new System.Drawing.Size(268, 26);
-            this.releaseDetainToolStripMenuItem.Text = "Release Detained License";
-            this.releaseDetainToolStripMenuItem.Click += new System.EventHandler(this.releaseDetainToolStripMenuItem_Click);
+            releaseDetainToolStripMenuItem.Image = ImageResources.Release_Detained_License_32;
+            releaseDetainToolStripMenuItem.ImageAlign = ContentAlignment.MiddleLeft;
+            releaseDetainToolStripMenuItem.Name = "releaseDetainToolStripMenuItem";
+            releaseDetainToolStripMenuItem.Size = new Size(229, 26);
+            releaseDetainToolStripMenuItem.Text = "Release Detained License";
+            releaseDetainToolStripMenuItem.Click += releaseDetainToolStripMenuItem_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(14, 337);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 21);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Filter By :";
+            label1.AutoSize = true;
+            label1.Font = new Font("Tahoma", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(14, 316);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(68, 16);
+            label1.TabIndex = 1;
+            label1.Text = "Filter By :";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(13, 762);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 21);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "# Records : ";
+            label2.AutoSize = true;
+            label2.Font = new Font("Tahoma", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(13, 714);
+            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(86, 16);
+            label2.TabIndex = 2;
+            label2.Text = "# Records : ";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Bahnschrift SemiBold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.DarkRed;
-            this.label3.Location = new System.Drawing.Point(457, 279);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(422, 41);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Manage Detained Licenses";
+            label3.AutoSize = true;
+            label3.Font = new Font("Bahnschrift SemiBold", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.DarkRed;
+            label3.Location = new Point(457, 262);
+            label3.Margin = new Padding(4, 0, 4, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(334, 33);
+            label3.TabIndex = 3;
+            label3.Text = "Manage Detained Licenses";
             // 
             // lblRecordsCount
             // 
-            this.lblRecordsCount.AutoSize = true;
-            this.lblRecordsCount.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRecordsCount.Location = new System.Drawing.Point(124, 762);
-            this.lblRecordsCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblRecordsCount.Name = "lblRecordsCount";
-            this.lblRecordsCount.Size = new System.Drawing.Size(21, 21);
-            this.lblRecordsCount.TabIndex = 6;
-            this.lblRecordsCount.Text = "0";
+            lblRecordsCount.AutoSize = true;
+            lblRecordsCount.Font = new Font("Tahoma", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblRecordsCount.Location = new Point(124, 714);
+            lblRecordsCount.Margin = new Padding(4, 0, 4, 0);
+            lblRecordsCount.Name = "lblRecordsCount";
+            lblRecordsCount.Size = new Size(15, 16);
+            lblRecordsCount.TabIndex = 6;
+            lblRecordsCount.Text = "0";
             // 
             // mtxtFilterSearch
             // 
-            this.mtxtFilterSearch.Location = new System.Drawing.Point(342, 334);
-            this.mtxtFilterSearch.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.mtxtFilterSearch.Name = "mtxtFilterSearch";
-            this.mtxtFilterSearch.Size = new System.Drawing.Size(247, 24);
-            this.mtxtFilterSearch.TabIndex = 7;
-            this.mtxtFilterSearch.TextChanged += new System.EventHandler(this.mtxtFilterSearch_TextChanged);
-            this.mtxtFilterSearch.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.mtxtFilterSearch_KeyPress);
+            mtxtFilterSearch.Location = new Point(342, 313);
+            mtxtFilterSearch.Margin = new Padding(4, 2, 4, 2);
+            mtxtFilterSearch.Name = "mtxtFilterSearch";
+            mtxtFilterSearch.Size = new Size(247, 23);
+            mtxtFilterSearch.TabIndex = 7;
+            mtxtFilterSearch.TextChanged += mtxtFilterSearch_TextChanged;
+            mtxtFilterSearch.KeyPress += mtxtFilterSearch_KeyPress;
             // 
             // cbFilterBy
             // 
-            this.cbFilterBy.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbFilterBy.FormattingEnabled = true;
-            this.cbFilterBy.Items.AddRange(new object[] {
-            "None",
-            "Detain ID",
-            "Is Releasaed",
-            "National No",
-            "Full Name",
-            "Release Application ID"});
-            this.cbFilterBy.Location = new System.Drawing.Point(113, 337);
-            this.cbFilterBy.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.cbFilterBy.Name = "cbFilterBy";
-            this.cbFilterBy.Size = new System.Drawing.Size(208, 24);
-            this.cbFilterBy.TabIndex = 8;
-            this.cbFilterBy.SelectedIndexChanged += new System.EventHandler(this.cbFilterBy_SelectedIndexChanged);
+            cbFilterBy.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbFilterBy.FormattingEnabled = true;
+            cbFilterBy.Items.AddRange(new object[] { "None", "Detain ID", "Is Releasaed", "National No", "Full Name", "Release Application ID" });
+            cbFilterBy.Location = new Point(113, 316);
+            cbFilterBy.Margin = new Padding(4, 2, 4, 2);
+            cbFilterBy.Name = "cbFilterBy";
+            cbFilterBy.Size = new Size(208, 23);
+            cbFilterBy.TabIndex = 8;
+            cbFilterBy.SelectedIndexChanged += cbFilterBy_SelectedIndexChanged;
             // 
             // btnDetainLicense
             // 
-            this.btnDetainLicense.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDetainLicense.Image = global::DVLD_UiLayer.ImageResources.Detain_64;
-            this.btnDetainLicense.Location = new System.Drawing.Point(1182, 302);
-            this.btnDetainLicense.Margin = new System.Windows.Forms.Padding(4);
-            this.btnDetainLicense.Name = "btnDetainLicense";
-            this.btnDetainLicense.Size = new System.Drawing.Size(84, 66);
-            this.btnDetainLicense.TabIndex = 11;
-            this.btnDetainLicense.UseVisualStyleBackColor = true;
-            this.btnDetainLicense.Click += new System.EventHandler(this.btnDetainLicense_Click);
+            btnDetainLicense.FlatStyle = FlatStyle.Flat;
+            btnDetainLicense.Image = ImageResources.Detain_64;
+            btnDetainLicense.Location = new Point(1182, 283);
+            btnDetainLicense.Margin = new Padding(4);
+            btnDetainLicense.Name = "btnDetainLicense";
+            btnDetainLicense.Size = new Size(84, 62);
+            btnDetainLicense.TabIndex = 11;
+            btnDetainLicense.UseVisualStyleBackColor = true;
+            btnDetainLicense.Click += btnDetainLicense_Click;
             // 
             // button1
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::DVLD_UiLayer.ImageResources.PersonLicenseHistory_321;
-            this.button1.Location = new System.Drawing.Point(1771, 181);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 83);
-            this.button1.TabIndex = 10;
-            this.button1.UseVisualStyleBackColor = true;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Image = ImageResources.PersonLicenseHistory_321;
+            button1.Location = new Point(1771, 170);
+            button1.Margin = new Padding(4);
+            button1.Name = "button1";
+            button1.Size = new Size(105, 78);
+            button1.TabIndex = 10;
+            button1.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::DVLD_UiLayer.ImageResources.Detain_512;
-            this.pictureBox1.Location = new System.Drawing.Point(524, 10);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(281, 265);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
-            // 
-            // btnAddDetainedLicense
-            // 
-            this.btnAddDetainedLicense.Location = new System.Drawing.Point(0, 0);
-            this.btnAddDetainedLicense.Name = "btnAddDetainedLicense";
-            this.btnAddDetainedLicense.Size = new System.Drawing.Size(75, 23);
-            this.btnAddDetainedLicense.TabIndex = 12;
+            pictureBox1.Image = ImageResources.Detain_512;
+            pictureBox1.Location = new Point(524, 9);
+            pictureBox1.Margin = new Padding(4, 2, 4, 2);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(281, 248);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 9;
+            pictureBox1.TabStop = false;
             // 
             // btnCloseForm
             // 
-            this.btnCloseForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCloseForm.Image = global::DVLD_UiLayer.ImageResources.Close_321;
-            this.btnCloseForm.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCloseForm.Location = new System.Drawing.Point(1133, 753);
-            this.btnCloseForm.Margin = new System.Windows.Forms.Padding(4);
-            this.btnCloseForm.Name = "btnCloseForm";
-            this.btnCloseForm.Size = new System.Drawing.Size(133, 41);
-            this.btnCloseForm.TabIndex = 4;
-            this.btnCloseForm.Text = "Close";
-            this.btnCloseForm.UseVisualStyleBackColor = true;
-            this.btnCloseForm.Click += new System.EventHandler(this.btnCloseForm_Click);
+            btnCloseForm.FlatStyle = FlatStyle.Flat;
+            btnCloseForm.Image = ImageResources.Close_321;
+            btnCloseForm.ImageAlign = ContentAlignment.MiddleLeft;
+            btnCloseForm.Location = new Point(1133, 706);
+            btnCloseForm.Margin = new Padding(4);
+            btnCloseForm.Name = "btnCloseForm";
+            btnCloseForm.Size = new Size(133, 38);
+            btnCloseForm.TabIndex = 4;
+            btnCloseForm.Text = "Close";
+            btnCloseForm.UseVisualStyleBackColor = true;
+            btnCloseForm.Click += btnCloseForm_Click;
             // 
             // btnReleaseDetainedLicense
             // 
-            this.btnReleaseDetainedLicense.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReleaseDetainedLicense.Image = global::DVLD_UiLayer.ImageResources.Release_Detained_License_64;
-            this.btnReleaseDetainedLicense.Location = new System.Drawing.Point(1090, 302);
-            this.btnReleaseDetainedLicense.Margin = new System.Windows.Forms.Padding(4);
-            this.btnReleaseDetainedLicense.Name = "btnReleaseDetainedLicense";
-            this.btnReleaseDetainedLicense.Size = new System.Drawing.Size(84, 66);
-            this.btnReleaseDetainedLicense.TabIndex = 13;
-            this.btnReleaseDetainedLicense.UseVisualStyleBackColor = true;
-            this.btnReleaseDetainedLicense.Click += new System.EventHandler(this.btnReleaseDetainedLicense_Click);
+            btnReleaseDetainedLicense.FlatStyle = FlatStyle.Flat;
+            btnReleaseDetainedLicense.Image = ImageResources.Release_Detained_License_64;
+            btnReleaseDetainedLicense.Location = new Point(1090, 283);
+            btnReleaseDetainedLicense.Margin = new Padding(4);
+            btnReleaseDetainedLicense.Name = "btnReleaseDetainedLicense";
+            btnReleaseDetainedLicense.Size = new Size(84, 62);
+            btnReleaseDetainedLicense.TabIndex = 13;
+            btnReleaseDetainedLicense.UseVisualStyleBackColor = true;
+            btnReleaseDetainedLicense.Click += btnReleaseDetainedLicense_Click;
             // 
             // cbIsReleasedFilter
             // 
-            this.cbIsReleasedFilter.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbIsReleasedFilter.FormattingEnabled = true;
-            this.cbIsReleasedFilter.Items.AddRange(new object[] {
-            "All",
-            "Yes",
-            "No"});
-            this.cbIsReleasedFilter.Location = new System.Drawing.Point(342, 337);
-            this.cbIsReleasedFilter.Name = "cbIsReleasedFilter";
-            this.cbIsReleasedFilter.Size = new System.Drawing.Size(121, 24);
-            this.cbIsReleasedFilter.TabIndex = 14;
-            this.cbIsReleasedFilter.Visible = false;
-            this.cbIsReleasedFilter.SelectedIndexChanged += new System.EventHandler(this.cbIsReleasedFilter_SelectedIndexChanged);
+            cbIsReleasedFilter.DropDownStyle = ComboBoxStyle.DropDownList;
+            cbIsReleasedFilter.FormattingEnabled = true;
+            cbIsReleasedFilter.Items.AddRange(new object[] { "All", "Yes", "No" });
+            cbIsReleasedFilter.Location = new Point(342, 316);
+            cbIsReleasedFilter.Name = "cbIsReleasedFilter";
+            cbIsReleasedFilter.Size = new Size(121, 23);
+            cbIsReleasedFilter.TabIndex = 14;
+            cbIsReleasedFilter.Visible = false;
+            cbIsReleasedFilter.SelectedIndexChanged += cbIsReleasedFilter_SelectedIndexChanged;
             // 
             // frmManageDetainedLicenses
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1279, 807);
-            this.Controls.Add(this.cbIsReleasedFilter);
-            this.Controls.Add(this.btnReleaseDetainedLicense);
-            this.Controls.Add(this.btnDetainLicense);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.cbFilterBy);
-            this.Controls.Add(this.mtxtFilterSearch);
-            this.Controls.Add(this.lblRecordsCount);
-            this.Controls.Add(this.btnAddDetainedLicense);
-            this.Controls.Add(this.btnCloseForm);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.dgvManageDetainedLicenses);
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "frmManageDetainedLicenses";
-            this.Text = "ManageAll";
-            this.Load += new System.EventHandler(this.frmManageDetainedLicenses_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvManageDetainedLicenses)).EndInit();
-            this.cmsManageDetainedLicenses.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1279, 757);
+            Controls.Add(cbIsReleasedFilter);
+            Controls.Add(btnReleaseDetainedLicense);
+            Controls.Add(btnDetainLicense);
+            Controls.Add(button1);
+            Controls.Add(pictureBox1);
+            Controls.Add(cbFilterBy);
+            Controls.Add(mtxtFilterSearch);
+            Controls.Add(lblRecordsCount);
+            Controls.Add(btnCloseForm);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(dgvManageDetainedLicenses);
+            Margin = new Padding(4);
+            Name = "frmManageDetainedLicenses";
+            Text = "ManageAll";
+            Load += frmManageDetainedLicenses_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvManageDetainedLicenses).EndInit();
+            cmsManageDetainedLicenses.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
 
         }
 
@@ -316,7 +293,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnCloseForm;
-        private System.Windows.Forms.Button btnAddDetainedLicense;
         private System.Windows.Forms.Label lblRecordsCount;
         private System.Windows.Forms.MaskedTextBox mtxtFilterSearch;
         private System.Windows.Forms.ComboBox cbFilterBy;

@@ -105,7 +105,7 @@ namespace DVLD_UiLayer
             if (string.IsNullOrWhiteSpace(txtFilterSearch.Text) || _FilterBy == enFilterBy.None)
             {
                 _ManageLocalDL_AppsView.RowFilter = string.Empty;
-                lblRecordsCount.Text = "0";
+                lblRecordsCount.Text = dgvManageLocalDL_Apps.Rows.Count.ToString();
                 return;
             }
 
