@@ -9,7 +9,7 @@ An enterprise-grade management system designed to automate and streamline licens
 
 | System Authentication | Comprehensive License History |
 | :---: | :---: |
-| ![Login](Screenshots/Main/Login.jpg?raw=true) | ![License History](Screenshots/Main/License_History.png?raw=true) |
+| ![Login](Screenshots/Main/Login.png?raw=true) | ![License History](Screenshots/Main/License_History.png?raw=true) |
 | **Complex Application Workflows** | **Fines & Detained Licenses Management** |
 | ![Applications Workflow](Screenshots/Main/Applications_Workflow.png?raw=true) | ![Detained Licenses](Screenshots/Main/Detained_Licenses.png?raw=true) |
 
