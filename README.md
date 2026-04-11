@@ -5,10 +5,20 @@ An enterprise-grade management system designed to automate and streamline licens
 
 ---
 
+## 📸 Screenshots
+
+| System Authentication | Comprehensive License History |
+| :---: | :---: |
+| ![Login](Screenshots/Login.jpg?raw=true) | ![License History](Screenshots/License_History.png?raw=true) |
+| **Complex Application Workflows** | **Fines & Detained Licenses Management** |
+| ![Applications Workflow](Screenshots/Applications_Workflow.png?raw=true) | ![Detained Licenses](Screenshots/Detained_Licenses.png?raw=true) |
+
+> **Note:** The primary focus of this project was engineering a robust Backend using strict 3-Tier Architecture and complex SQL operations. The Windows Forms UI is built purely for functional testing and demonstrating the core business logic.
+
+---
+
 ## 🏗️ Architecture: Strict 3-Tier Pattern
 The system follows a decoupled **3-Tier Architecture** to maintain a clean separation of concerns (SoC), making the codebase modular, testable, and easy to maintain:
-
-
 
 * **Presentation Layer (PL):** A modern, responsive desktop interface built with **.NET Core WinForms**. It handles user interactions and input validation.
 * **Business Logic Layer (BLL):** The core of the application that manages business rules, license eligibility logic, and complex workflows.
