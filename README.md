@@ -49,4 +49,4 @@ The system follows a decoupled **3-Tier Architecture** to maintain a clean separ
 ### 1. Database Setup
 Execute the SQL script found in the `/database` folder to recreate the schema and initial data:
 ```sql
--- File: /database/DVLD_DB.sql
+-- File: /database/DVLD_DB_Script.sql
